@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Inter:wght@400;500;600&family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --cinza: #667085;
+    --vermelho-escuro: #8E2424;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Inter, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 1rem 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 362px;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    list-style: none;
+    color: var(--cinza);
+}
+
+/*.cadastro {
+    display: flex;
+    justify-content: space-around;
+    width: 207px;
+    line-height: 44px;
+}
+
+.cadastroBotao {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cadastroBotao--diferente {
+    background-color: var(--vermelho-escuro);
+    color: white;
+    width: 112px;
+    height: 44px;
+    border-radius: 8px;
+}
+*/
+.cadastroBotao {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    background: none;
+    color: var(--cinza);
+    font-size: 0.9rem;
+}
+
+.cadastroBotao--diferente {
+    background-color: var(--vermelho-escuro);
+    color: #fff;
+}
